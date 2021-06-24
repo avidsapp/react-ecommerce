@@ -1,0 +1,42 @@
+.StripeCheckout {
+  background: var(--primary-color) !important;
+  border-radius: 0px !important;
+  margin: 0px auto;
+  width: 25vw;
+  height: 6vh;
+
+  @media screen and (max-width: 800px) {
+    width: 80vw;
+  }
+
+  &:hover {
+    background-color: var(--black);
+    color: black;
+  }
+
+  span {
+    background-image: unset !important;
+    box-shadow: unset !important;
+    text-shadow: unset !important;
+    font-family: var(--font-family);
+    font-size: 20px;
+    position: relative;
+    padding: 0px 12px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: var(--white);
+    font-weight: bold;
+    box-shadow: unset;
+    text-shadow: unset;
+
+    &:hover {
+      background-color: var(--black);
+      color: black;
+    }
+
+    @media screen and (max-width: 800px) {
+      background-color: var(--primary-color);
+    }
+  }
+}

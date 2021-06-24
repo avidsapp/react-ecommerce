@@ -20,6 +20,14 @@
     position: absolute;
     top: 255px;
     display: none;
+    background-color: var(--black);
+
+    @media screen and (max-width: 800px) {
+      display: inline-block;
+      opacity: 0.9;
+      min-width: unset;
+      padding: 0 10px;
+    }
   }
 
   &:hover {
@@ -30,6 +38,21 @@
     .custom-button {
       opacity: 0.85;
       display: flex;
+      background-color: var(--primary-color);
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 40vw;
+
+    &:hover {
+      .image {
+        opacity: unset;
+      }
+
+      .custom-button {
+        opacity: unset;
+      }
     }
   }
 
