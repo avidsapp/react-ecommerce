@@ -23,7 +23,7 @@ const CLEAR_ITEM_FROM_CART = gql`
   }
 `;
 
-const CollectionItemContainer = ({
+const CheckoutItemContainer = ({
   addItemToCart,
   removeItemFromCart,
   clearItemFromCart,
@@ -41,4 +41,4 @@ export default flowRight(
   graphql(ADD_ITEM_TO_CART, { name: 'addItemToCart' }),
   graphql(REMOVE_ITEM_FROM_CART, { name: 'removeItemFromCart' }),
   graphql(CLEAR_ITEM_FROM_CART, { name: 'clearItemFromCart' })
-)(CollectionItemContainer);
+)(CheckoutItemContainer);

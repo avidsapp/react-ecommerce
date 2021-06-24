@@ -9,11 +9,6 @@
     width: 80vw;
   }
 
-  &:hover {
-    background-color: var(--black);
-    color: black;
-  }
-
   span {
     background-image: unset !important;
     box-shadow: unset !important;
@@ -23,20 +18,27 @@
     position: relative;
     padding: 0px 12px;
     display: block;
-    height: 30px;
-    line-height: 30px;
+    height: 6vh !important;
+    line-height: 6vh !important;
     color: var(--white);
     font-weight: bold;
     box-shadow: unset;
     text-shadow: unset;
+    border: 0px;
 
     &:hover {
       background-color: var(--black);
-      color: black;
+      color: var(--black);
+      border-radius: 0px !important;
+      border: 0px !important;
     }
 
     @media screen and (max-width: 800px) {
       background-color: var(--primary-color);
+
+      &:hover {
+        background-color: var(--primary-color);
+      }
     }
   }
 }

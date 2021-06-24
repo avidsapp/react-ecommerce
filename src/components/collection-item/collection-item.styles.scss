@@ -20,7 +20,7 @@
     position: absolute;
     top: 255px;
     display: none;
-    background-color: var(--black);
+    background-color: var(--primary-color);
 
     @media screen and (max-width: 800px) {
       display: inline-block;
@@ -38,7 +38,6 @@
     .custom-button {
       opacity: 0.85;
       display: flex;
-      background-color: var(--primary-color);
     }
   }
 
