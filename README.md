@@ -23,3 +23,6 @@ Built from [this tutorial](https://github.com/ZhangMYihua/lesson-34), but using 
 ## For Netlify hosting
 - Add `CI= ` before the run command - [link](https://answers.netlify.com/t/how-to-fix-build-failures-with-create-react-app-in-production/17752)
 - Add Stripe secret env variable `STRIPE_SECRET_KEY=...`
+
+## TO DO:
+- Finish adding Lazy Loading to Shop and Collections routes
